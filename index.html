@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Dice Roll</h1>
+    <div class="div">
+      <p>How many players want to play : <input class="number" type="number" min="2" max="5" /></p>
+      <button class="btn enter-number">Enter</button><br />
+      <p class="message hidden"></p>
+    </div>
+
+    <div class="div hidden">
+      <p>Enter player <span class="player-number"></span> name : <input class="name" type="text" /></p>
+      <button class="btn enter-name">Enter</button>
+    </div>
+
+    <div class="div hidden">
+      <p class="player-name"></p>
+      <button class="btn roll">Roll Dice</button><br /><br />
+      <img class="dice hidden" src="dice-1.png" alt="Dice" />
+      <p>Score : <span class="score">0</span></p>
+      <p>Chances : <span class="chances">5</span></p>
+    </div>
+
+    <div class="div hidden">
+      <p>Your chances have been over !</p>
+      <button class="btn ok">OK</button>
+    </div>
+
+    <div class="div hidden">
+      <pre class="score-table"></pre>
+      <p>Congratulations <span class="winner"></span>, you are the winner.</p>
+      <button class="btn again">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

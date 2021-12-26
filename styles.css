@@ -1,0 +1,44 @@
+body,
+pre {
+  font-size: 20px;
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+
+div {
+  margin: 40px;
+}
+
+img {
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  height: 5rem;
+  margin: 20px;
+}
+
+input {
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+
+.number {
+  width: 80px;
+}
+
+.name {
+  width: 180px;
+}
+
+.btn {
+  font-size: 18px;
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+  padding: 4px;
+}
+
+.hidden {
+  display: none;
+}
